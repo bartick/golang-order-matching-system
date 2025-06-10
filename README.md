@@ -46,8 +46,8 @@ docker compose up
   ```json
   {
     "symbol": "string",
-    "side": "buy" | "sell",
-    "type": "limit" | "market",
+    "side": "buy | sell",
+    "type": "limit | market",
     "price": 0.0,
     "quantity": 0
   }
@@ -58,12 +58,12 @@ docker compose up
         "order": {
             "id": "string",
             "symbol": "string",
-            "side": "sell" | "buy",
-            "type": "limit" | "market",
+            "side": "sell | buy",
+            "type": "limit | market",
             "price": 0,
             "initial_quantity": 0,
             "remaining_quantity": 0,
-            "status": "open" | "filled" | "cancelled" | "partially_filled",
+            "status": "open | filled | cancelled | partially_filled",
             "created_at": "2025-06-10T18:27:49.303527Z",
             "updated_at": "2025-06-10T18:27:49.303527Z"
         },
