@@ -23,6 +23,8 @@ Or using docker-compose:
 docker compose up
 ```
 
+**NOTE**: I am using postgres as the database, so make sure you have it running and the connection string is set in the `.env` file. And load the migration file from `migrations/` directory to create the necessary tables in the database. If you are using docker compose you will not need to do this as the migration will be run automatically when the container starts.
+
 ## API Endpoints
 ### Create Order
 - **Endpoint**: `/order`
