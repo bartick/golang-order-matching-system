@@ -1,0 +1,2 @@
+# Golang Order Matching System
+This repository contains a simple order matching system implemented in Golang. It is designed to handle buy and sell orders, match them based on price and time priority, and execute trades accordingly.
